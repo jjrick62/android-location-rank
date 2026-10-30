@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>安卓模拟定位工具 综合指数排行</title>
+<style>
+:root{--ink:#1c1a17;--ink2:#6b645c;--line:#e2dcd2;--bg:#f7f4ef;--card:#fffdf9;--red:#b4371f;--grn:#2f6b46}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font:15px/1.65 -apple-system,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC",sans-serif;padding:18px 14px 60px}
+.wrap{max-width:760px;margin:0 auto}
+h1{font-size:23px;line-height:1.3;margin:0 0 6px;letter-spacing:-.4px;font-weight:800}
+.sub{color:var(--ink2);font-size:12.5px;margin-bottom:18px}
+.sub b{color:var(--ink);font-weight:600}
+.method{background:#efe9df;border-radius:12px;padding:13px 15px;font-size:12.5px;color:#4a443c;line-height:1.7;margin-bottom:24px}
+.method b{color:var(--red)}
+.card{position:relative;display:grid;grid-template-columns:34px 1fr auto;gap:10px;
+ background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 14px 13px;margin-bottom:10px}
+.rk{font:700 13px/1.2 ui-monospace,monospace;color:#b3aa9c;padding-top:3px}
+.ttl{font-size:16px;font-weight:700;letter-spacing:-.2px}
+.ttl a{color:var(--ink);text-decoration:none;border-bottom:1.5px solid #d8cfc0}
+.repo{display:block;font:11px/1.4 ui-monospace,monospace;color:#a29a8c;font-weight:400;margin-top:1px}
+.tags{margin:6px 0 5px;display:flex;flex-wrap:wrap;gap:5px}
+.t{font-size:11px;padding:1.5px 7px;border-radius:20px;background:#eee7dc;color:#5d564c}
+.t.hot{background:#f7dfd6;color:var(--red)}
+.note{font-size:12.5px;color:#5f584f;line-height:1.6}
+.barwrap{height:5px;background:#ebe4d8;border-radius:4px;margin:10px 0 6px;overflow:hidden}
+.bar{height:100%;background:linear-gradient(90deg,#c9502f,#e08a5c);border-radius:4px}
+.dims{font:11px/1.5 ui-monospace,monospace;color:#a49b8d}
+.rt{text-align:right;min-width:74px}
+.score{font:800 27px/1 ui-monospace,monospace;letter-spacing:-1px;color:var(--red)}
+.stars{font-size:11px;color:#8d8477;margin:5px 0 8px}
+.btn{display:inline-block;font-size:11.5px;font-weight:600;text-decoration:none;
+ background:var(--ink);color:#fff;padding:5px 9px;border-radius:7px;white-space:nowrap}
+.btn.off{background:#ddd5c8;color:#8b8377}
+h2{font-size:14px;margin:30px 0 10px;padding-bottom:7px;border-bottom:1.5px solid var(--line);letter-spacing:.3px}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th,td{text-align:left;padding:7px 6px;border-bottom:1px solid #eee7db;vertical-align:top}
+th{font-weight:600;color:var(--ink2);font-size:11px;background:#efe9df}
+td.num{font-family:ui-monospace,monospace;white-space:nowrap}
+.foot{margin-top:26px;font-size:12px;color:#6b645c;line-height:1.75}
+.foot b{color:var(--ink)}
+.warn{margin-top:14px;background:#fbf3e6;border-left:3px solid #d9a13b;padding:11px 13px;border-radius:0 8px 8px 0;font-size:12.5px;color:#5a4e38}
+</style></head><body><div class="wrap">
+<h1>安卓模拟定位工具<br>综合指数排行</h1>
+<div class="sub">数据采集 <b>2026-10-30</b>　共 <b>13</b> 个仓库　APK 链接逐个实测 HTTP 200</div>
+
+<div class="method">
+<b>综合指数 = </b>热度 20% ＋ 活跃度 15% ＋ 易用性 15% ＋ <b>打卡有效性 35%</b> ＋ 装机量 15%<br>
+热度取 star 数对数；活跃度按最近发版距今折算（730 天归零）；易用性按是否需要 root 框架；打卡有效性按能否洗掉系统 mock 标记；装机量取 release 累计下载对数，查不到的按 50 分中位处理。
+</div>
+
+
+  <div class="card">
+    <div class="rk">01</div>
+    <div class="mid">
+      <div class="ttl"><a href="https://github.com/aquamarine5/ChaoxingSignFaker" target="_blank">学习通签到神器</a>
+        <span class="repo">aquamarine5/ChaoxingSignFaker</span></div>
+      <div class="tags"><span class="t">免root</span><span class="t">签到直取</span></div>
+      <div class="note">不走定位，直接伪造学习通签到活动，位置签到、二维码、拍照全包</div>
+      <div class="barwrap"><div class="bar" style="width:77.6%"></div></div>
+      <div class="dims">热度 44 · 活跃 99 · 易用 100 · 打卡有效 90 · 装机 50</div>
+    </div>
+    <div class="rt">
+      <div class="score">77.6</div>
+      <div class="stars">★ 898</div>
+      <a class="btn" href="https://github.com/aquamarine5/ChaoxingSignFaker/releases/download/1.19.4-stable/app-release.apk" target="_blank">APK 51.6 MB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rk">02</div>
+    <div class="mid">
+      <div class="ttl"><a href="https://github.com/HuangZhuoRui/LocationSpoofer" target="_blank">LocationSpoofer</a>
+        <span class="repo">HuangZhuoRui/LocationSpoofer</span></div>
+      <div class="tags"><span class="t">要账号</span><span class="t">采集WiFi基站</span></div>
+      <div class="note">环境数据采集最全，可在本地伪造 WiFi/基站，但要先申请被测应用包名</div>
+      <div class="barwrap"><div class="bar" style="width:75.1%"></div></div>
+      <div class="dims">热度 61 · 活跃 100 · 易用 55 · 打卡有效 90 · 装机 54</div>
+    </div>
+    <div class="rt">
+      <div class="score">75.1</div>
+      <div class="stars">★ 2,139</div>
+      <a class="btn" href="https://github.com/HuangZhuoRui/LocationSpoofer/releases/download/v3.1.2/LocationSpoofer-v3.1.2-global-64bit-arm64-v8a.apk" target="_blank">APK 18.7 MB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rk">03</div>
+    <div class="mid">
+      <div class="ttl"><a href="https://github.com/ZCShou/GoGoGo" target="_blank">影梭 GoGoGo</a>
+        <span class="repo">ZCShou/GoGoGo</span></div>
+      <div class="tags"><span class="t">免root</span><span class="t hot">星最高</span></div>
+      <div class="note">安卓侧星数冠军，地图选点加线路回放加悬浮摇杆，但走系统模拟位置接口</div>
+      <div class="barwrap"><div class="bar" style="width:73.9%"></div></div>
+      <div class="dims">热度 95 · 活跃 99 · 易用 100 · 打卡有效 30 · 装机 97</div>
+    </div>
+    <div class="rt">
+      <div class="score">73.9</div>
+      <div class="stars">★ 11,669</div>
+      <a class="btn" href="https://github.com/ZCShou/GoGoGo/releases/download/v2.5.2/virtgo-252.apk" target="_blank">APK 40.5 MB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rk">04</div>
+    <div class="mid">
+      <div class="ttl"><a href="https://github.com/Lerist/FakeLocation" target="_blank">FakeLocation</a>
+        <span class="repo">Lerist/FakeLocation</span></div>
+      <div class="tags"><span class="t">免root</span><span class="t">已停更</span></div>
+      <div class="note">国内老牌，下载量最大，仓库 2026-08 已归档，作者不再维护</div>
+      <div class="barwrap"><div class="bar" style="width:73.6%"></div></div>
+      <div class="dims">热度 86 · 活跃 90 · 易用 100 · 打卡有效 40 · 装机 93</div>
+    </div>
+    <div class="rt">
+      <div class="score">73.6</div>
+      <div class="stars">★ 7,306</div>
+      <a class="btn" href="https://github.com/Lerist/FakeLocation/releases/download/1.5.2/FakeLocation_CN_v1.5.2_1702.apk" target="_blank">APK 32.7 MB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rk">05</div>
+    <div class="mid">
+      <div class="ttl"><a href="https://github.com/noobexon1/XposedFakeLocation" target="_blank">XposedFakeLocation</a>
+        <span class="repo">noobexon1/XposedFakeLocation</span></div>
+      <div class="tags"><span class="t">需LSPosed</span><span class="t">分应用</span></div>
+      <div class="note">系统层改定位，可按应用单独伪造，最能绕开 mock 检测</div>
+      <div class="barwrap"><div class="bar" style="width:67.8%"></div></div>
+      <div class="dims">热度 40 · 活跃 100 · 易用 45 · 打卡有效 88 · 装机 48</div>
+    </div>
+    <div class="rt">
+      <div class="score">67.8</div>
+      <div class="stars">★ 750</div>
+      <a class="btn" href="https://github.com/noobexon1/XposedFakeLocation/releases/download/v0.4.0/XposedFakeLocation.apk" target="_blank">APK 12.0 MB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rk">06</div>
+    <div class="mid">
+      <div class="ttl"><a href="https://github.com/noellegazelle6/kail_location" target="_blank">Kail Location</a>
+        <span class="repo">noellegazelle6/kail_location</span></div>
+      <div class="tags"><span class="t">双版本</span><span class="t">还在更</span></div>
+      <div class="note">同仓同时发普通版和 Xposed 版，路线、步频、NFC 都能模拟，GPL-3.0</div>
+      <div class="barwrap"><div class="bar" style="width:64.2%"></div></div>
+      <div class="dims">热度 30 · 活跃 99 · 易用 75 · 打卡有效 75 · 装机 39</div>
+    </div>
+    <div class="rt">
+      <div class="score">64.2</div>
+      <div class="stars">★ 443</div>
+      <a class="btn" href="https://github.com/noellegazelle6/kail_location/releases/download/v1.7.4/KailLocation.apk" target="_blank">APK 17.9 MB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rk">07</div>
+    <div class="mid">
+      <div class="ttl"><a href="https://github.com/zhaoyuxiangyyds-lab/AnyDoor" target="_blank">任意门 AnyDoor</a>
+        <span class="repo">zhaoyuxiangyyds-lab/AnyDoor</span></div>
+      <div class="tags"><span class="t">需LSPosed</span><span class="t hot">反检测最强</span></div>
+      <div class="note">BSSID 与基站一起改，README 直接点名考勤类应用，只勾系统框架即可</div>
+      <div class="barwrap"><div class="bar" style="width:64.0%"></div></div>
+      <div class="dims">热度 15 · 活跃 95 · 易用 45 · 打卡有效 92 · 装机 52</div>
+    </div>
+    <div class="rt">
+      <div class="score">64.0</div>
+      <div class="stars">★ 214</div>
+      <a class="btn" href="https://github.com/zhaoyuxiangyyds-lab/AnyDoor/releases/download/v1.4.4/AnyDoor.apk" target="_blank">APK 0.2 MB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rk">08</div>
+    <div class="mid">
+      <div class="ttl"><a href="https://github.com/Android1500/GpsSetter" target="_blank">GPS Setter</a>
+        <span class="repo">Android1500/GpsSetter</span></div>
+      <div class="tags"><span class="t">需Xposed</span><span class="t">下载量巨大</span></div>
+      <div class="note">不留 mock 标记，单版下载近两百万，但 2022 年后停更</div>
+      <div class="barwrap"><div class="bar" style="width:57.8%"></div></div>
+      <div class="dims">热度 32 · 活跃 0 · 易用 45 · 打卡有效 85 · 装机 100</div>
+    </div>
+    <div class="rt">
+      <div class="score">57.8</div>
+      <div class="stars">★ 488</div>
+      <a class="btn" href="https://github.com/Android1500/GpsSetter/releases/download/v1.2.10/app-release.apk" target="_blank">APK 5.9 MB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rk">09</div>
+    <div class="mid">
+      <div class="ttl"><a href="https://github.com/mcastillof/FakeTraveler" target="_blank">FakeTraveler</a>
+        <span class="repo">mcastillof/FakeTraveler</span></div>
+      <div class="tags"><span class="t">免root</span><span class="t">F-Droid</span></div>
+      <div class="note">极简开源 GPL，只做单点模拟，GitHub 不挂 APK，走 F-Droid 装</div>
+      <div class="barwrap"><div class="bar" style="width:52.7%"></div></div>
+      <div class="dims">热度 55 · 活跃 100 · 易用 70 · 打卡有效 25 · 装机 50</div>
+    </div>
+    <div class="rt">
+      <div class="score">52.7</div>
+      <div class="stars">★ 1,555</div>
+      <a class="btn" href="https://f-droid.org/app/cl.coders.faketraveler" target="_blank">APK F-Droid</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rk">10</div>
+    <div class="mid">
+      <div class="ttl"><a href="https://github.com/ChenGuoqing1001/MockLocation" target="_blank">悟空虚拟定位</a>
+        <span class="repo">ChenGuoqing1001/MockLocation</span></div>
+      <div class="tags"><span class="t">免root</span><span class="t">中文</span></div>
+      <div class="note">上架 Google Play，界面最像成品，坐标支持 WGS84/GCJ-02/BD-09</div>
+      <div class="barwrap"><div class="bar" style="width:50.8%"></div></div>
+      <div class="dims">热度 15 · 活跃 97 · 易用 100 · 打卡有效 30 · 装机 52</div>
+    </div>
+    <div class="rt">
+      <div class="score">50.8</div>
+      <div class="stars">★ 207</div>
+      <a class="btn" href="https://github.com/ChenGuoqing1001/MockLocation/releases/latest/download/MockLocation-google.apk" target="_blank">APK 28.0 MB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rk">11</div>
+    <div class="mid">
+      <div class="ttl"><a href="https://github.com/ella8192/Portal" target="_blank">Portal</a>
+        <span class="repo">ella8192/Portal</span></div>
+      <div class="tags"><span class="t">需Xposed</span><span class="t">安卓7-15</span></div>
+      <div class="note">老牌虚拟定位服务，2025-04 后没再更新</div>
+      <div class="barwrap"><div class="bar" style="width:49.7%"></div></div>
+      <div class="dims">热度 19 · 活跃 24 · 易用 45 · 打卡有效 80 · 装机 50</div>
+    </div>
+    <div class="rt">
+      <div class="score">49.7</div>
+      <div class="stars">★ 262</div>
+      <a class="btn" href="https://github.com/ella8192/Portal/releases/download/v2.0.5/PortalDev-v2.0.6-fixed3.apk" target="_blank">APK 36.3 MB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rk">12</div>
+    <div class="mid">
+      <div class="ttl"><a href="https://github.com/liujiayu5566/MockGps" target="_blank">MockGps</a>
+        <span class="repo">liujiayu5566/MockGps</span></div>
+      <div class="tags"><span class="t">免root</span><span class="t">中文</span></div>
+      <div class="note">中文，支持安卓 14，带模拟导航和悬浮窗，2024 年底后停更</div>
+      <div class="barwrap"><div class="bar" style="width:42.0%"></div></div>
+      <div class="dims">热度 35 · 活跃 3 · 易用 100 · 打卡有效 30 · 装机 60</div>
+    </div>
+    <div class="rt">
+      <div class="score">42.0</div>
+      <div class="stars">★ 578</div>
+      <a class="btn" href="https://github.com/liujiayu5566/MockGps/releases/download/v2.5.5/MockGps_2.5.5.apk" target="_blank">APK 23.4 MB</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rk">13</div>
+    <div class="mid">
+      <div class="ttl"><a href="https://github.com/Hilaver/MockGPS" target="_blank">MockGPS</a>
+        <span class="repo">Hilaver/MockGPS</span></div>
+      <div class="tags"><span class="t">仅源码</span><span class="t">已废</span></div>
+      <div class="note">2020 年停更且不发 APK，只剩源码，不建议再碰</div>
+      <div class="barwrap"><div class="bar" style="width:28.4%"></div></div>
+      <div class="dims">热度 46 · 活跃 0 · 易用 20 · 打卡有效 25 · 装机 50</div>
+    </div>
+    <div class="rt">
+      <div class="score">28.4</div>
+      <div class="stars">★ 978</div>
+      <a class="btn" href="https://github.com/Hilaver/MockGPS" target="_blank">APK F-Droid</a>
+    </div>
+  </div>
+
+<h2>一表看全</h2>
+<div style="overflow-x:auto">
+<table>
+<thead><tr><th>项目</th><th>Star</th><th>最近发版</th><th>APK</th><th>门槛</th><th>打卡</th><th>综合</th></tr></thead>
+<tbody>
+<tr><td>学习通签到神器</td><td class="num">898</td><td class="num">2026-10-24</td><td class="num">52MB</td><td>免root</td><td class="num">90</td><td class="num"><b>77.6</b></td></tr><tr><td>LocationSpoofer</td><td class="num">2,139</td><td class="num">2026-10-28</td><td class="num">19MB</td><td>要账号</td><td class="num">90</td><td class="num"><b>75.1</b></td></tr><tr><td>影梭 GoGoGo</td><td class="num">11,669</td><td class="num">2026-10-25</td><td class="num">40MB</td><td>免root</td><td class="num">30</td><td class="num"><b>73.9</b></td></tr><tr><td>FakeLocation</td><td class="num">7,306</td><td class="num">2026-08-19</td><td class="num">33MB</td><td>免root</td><td class="num">40</td><td class="num"><b>73.6</b></td></tr><tr><td>XposedFakeLocation</td><td class="num">750</td><td class="num">2026-10-29</td><td class="num">12MB</td><td>Xposed</td><td class="num">88</td><td class="num"><b>67.8</b></td></tr><tr><td>Kail Location</td><td class="num">443</td><td class="num">2026-10-24</td><td class="num">18MB</td><td>双版本</td><td class="num">75</td><td class="num"><b>64.2</b></td></tr><tr><td>任意门 AnyDoor</td><td class="num">214</td><td class="num">2026-09-20</td><td class="num">0MB</td><td>Xposed</td><td class="num">92</td><td class="num"><b>64.0</b></td></tr><tr><td>GPS Setter</td><td class="num">488</td><td class="num">2022-11-08</td><td class="num">6MB</td><td>Xposed</td><td class="num">85</td><td class="num"><b>57.8</b></td></tr><tr><td>FakeTraveler</td><td class="num">1,555</td><td class="num">2026-10-29</td><td class="num">—</td><td>F-Droid</td><td class="num">25</td><td class="num"><b>52.7</b></td></tr><tr><td>悟空虚拟定位</td><td class="num">207</td><td class="num">2026-10-10</td><td class="num">28MB</td><td>免root</td><td class="num">30</td><td class="num"><b>50.8</b></td></tr><tr><td>Portal</td><td class="num">262</td><td class="num">2025-04-24</td><td class="num">36MB</td><td>Xposed</td><td class="num">80</td><td class="num"><b>49.7</b></td></tr><tr><td>MockGps</td><td class="num">578</td><td class="num">2024-11-22</td><td class="num">23MB</td><td>免root</td><td class="num">30</td><td class="num"><b>42.0</b></td></tr><tr><td>MockGPS</td><td class="num">978</td><td class="num">2020-01-12</td><td class="num">—</td><td>无</td><td class="num">25</td><td class="num"><b>28.4</b></td></tr>
+</tbody></table></div>
+
+<h2>结论</h2>
+<div class="foot">
+<b>要签到，别看星数挑。</b>星最高的两个（影梭 1.17 万、FakeLocation 7300）走的都是系统「模拟位置」接口，位置数据里带 mock 标记，钉钉、企业微信这类随手能查出来，正规考勤基本过不去。真正能抗检测的是 Xposed 系那几个，星数只有几百。<br><br>
+安卓上这条路只有两条：免 root 用系统接口，方便但会暴露；要洗干净标记就必须解 BL 锁、刷 root、装 LSPosed，在系统层改写。这是权限模型决定的，跟软件写得好不好无关。<br><br>
+<b>按用途分，三条推荐线：</b>学习通那种课堂签到，直接上签到神器，免 root 最省事；钉钉企业微信考勤，只有 Xposed 系能打，首选任意门或 XposedFakeLocation；只做开发测试、要让位置数据像真的，看 LocationSpoofer，它连 WiFi 和基站一起造。
+</div>
+
+<div class="warn">
+两件事得说明白。一是 FakeLocation 仓库已归档，GPS Setter 和 MockGps 也各自停更一两年，装之前先看对不对得上你的系统版本。二是改定位骗过考勤，多数单位的规章制度里算违规，被查出来是要担责的，工具本身不是问题，拿去干什么才是。
+</div>
+</div></body></html>
